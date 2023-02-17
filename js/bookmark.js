@@ -32,7 +32,7 @@ function rederBookmark(array, parent = elCard) {
 
     for (let i = 0; i <= array.length; i++) {
       const element = array[i];
-      pageNumber.textContent = i;
+      pageNumber.textContent = "Showing " + i;
     }
 
     // genered date
