@@ -1,0 +1,145 @@
+.bookmarks {
+  &__element {
+    display: flex;
+    gap: 40px;
+    padding-top: 60px;
+  }
+  &__left {
+    width: 268px;
+    background-color: #ffffff;
+  }
+  .left__title {
+    margin-top: 25px;
+    font-family: "Rubik-Regular";
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .left__text {
+    margin-top: 5px;
+    width: 218px;
+    font-family: "Rubik-Regular";
+    font-size: 14px;
+    line-height: 155.6%;
+  }
+  &__right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+    width: 920px;
+    margin: 0 auto;
+  }
+  &__right--active{
+    width: 100%;
+  }
+  .right__card {
+    width: 282px;
+    height: 431px;
+    background: #ffffff;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  .right__card--card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .right__box {
+    margin: 0 auto;
+    width: 249px;
+    height: 238px;
+    background: #f8fafd;
+    border-radius: 5px;
+  }
+  .right__title {
+    padding-top: 19px;
+    padding-left: 21px;
+    font-family: "Rubik-Medium";
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .right__text {
+    padding-left: 21px;
+    font-family: "Rubik-Medium";
+    font-size: 13px;
+    line-height: 18px;
+    color: #757881;
+  }
+  .right__date {
+    margin-bottom: 10px;
+    padding-left: 21px;
+    font-family: "Rubik-Medium";
+    font-size: 13px;
+    line-height: 18px;
+    color: #757881;
+  }
+  .right__buttons {
+    display: flex;
+    justify-content: space-around;
+  }
+  .right__btn {
+    width: 120px;
+    height: 37px;
+    background: #ffd80d;
+    border: 1px solid transparent;
+    border: none;
+    border-radius: 4px;
+    font-family: "Rubik-Medium";
+    transition: all 0.3s;
+  }
+  .right__btn:hover {
+    background-color: #ffffff;
+    border: 1px solid #ffd80d;
+    color: #ffd80d;
+    cursor: pointer;
+  }
+
+  .right__btn--edit {
+    background: #0d92ff;
+
+    color: #ffffff;
+  }
+  .right__btn--edit:hover {
+    background-color: #ffffff;
+    border: 1px solid #0d92ff;
+    color: #0d92ff;
+  }
+  .right__btn--delete {
+    background: #ff0d35;
+
+    color: #ffffff;
+  }
+  .right__btn--delete:hover {
+    background-color: #ffffff;
+    border: 1px solid #ff0d35;
+    color: #ff0d35;
+  }
+
+  .right__btn--second {
+    background: rgba(13, 117, 255, 0.05);
+    color: #0d75ff;
+  }
+  .right__btn--second:hover {
+    background-color: #ffffff;
+    border: 1px solid #0d1dff;
+    color: #0d1dff;
+  }
+  .right__btn--third {
+    width: 263px;
+    margin-top: 5px;
+    margin-left: 10px;
+    background: #75828a;
+    border: none;
+    color: #ffffff;
+  }
+  .right__btn--third:hover {
+    background-color: #ffffff;
+    border: 1px solid #75828a;
+    color: #000000;
+  }
+  .right__image {
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+    border-radius: 5px;
+  }
+}
